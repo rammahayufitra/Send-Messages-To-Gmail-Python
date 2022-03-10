@@ -7,7 +7,7 @@ def email_alert(subject, body, to):
     msg['subject'] = subject 
     msg['to'] = to 
    
-    user = "ramma5M89@gmail.com"
+    user = "xxxxxx"
     msg['from'] = user
     password = "lflcszulfqoebpaz"
 
@@ -18,4 +18,4 @@ def email_alert(subject, body, to):
     server.quit() 
 
 
-email_alert("Hallo", "Hallo ini coba heri", "ramma5M89@gmail.com")
+email_alert("Hallo", "Hallo ini coba heri", "xxxxxxxxxx.com")
